@@ -35,9 +35,9 @@ This JavaScript application calculates the exact amount of change needed in quar
 3. **Usage:**
 To use the coin counter application, integrate the coinCounterRecursive and coinCounterClosure functions into your JavaScript projects.
 
-Example of usage:
-```bash
-    const { coinCounterRecursive, coinCounterClosure } = require('./coinCounter');
+    Example of usage:
+    ```bash
+    const { coinCounterRecursive, coinCounterClosure } = require('./index');
 
     const amount = 4.99;
 
@@ -51,4 +51,16 @@ Example of usage:
     console.log(`Change for $${amount.toFixed(2)} using coinCounterClosure:`);
     console.log(changeClosure);
 
-```
+    ```
+
+4. **Testing**
+    Jest is used for testing the coin counter functions. Run the following command to execute the tests:
+
+    ```bash
+
+        npm test
+
+    ```
+
+5. **Contributing:**
+Contributions are welcome! If you have any suggestions, improvements, or issues, please open an issue or submit a pull request.
